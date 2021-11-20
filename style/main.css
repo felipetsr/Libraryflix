@@ -50,6 +50,7 @@ header nav a:hover{
 
     height:400px;
     background-size:cover;
+    text-decoration:none;
  
 
     display: flex;
@@ -75,6 +76,7 @@ header nav a:hover{
     background-color: rgba(0,0,0,.50);
     border:none;
     color: white;
+    
 
     padding:15px 30px;
     margin-right: 15px;
@@ -82,6 +84,11 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s ease all;
+}
+
+.botao a {
+    text-decoration:none;
+    color: white;    
 }
 
 .botao:hover{
@@ -96,6 +103,7 @@ header nav a:hover{
 
 .container{
     margin-left: 20px;
+    
 }
 
 .filme-principal .container{
